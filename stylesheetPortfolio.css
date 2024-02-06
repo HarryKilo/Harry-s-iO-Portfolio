@@ -1,0 +1,191 @@
+body {
+    font-family: "Gowun Batang";
+    background-color: #254636;
+    color: #d64b20;
+    font-weight: normal;
+    margin: 0;
+}
+a {
+    color: #d64b20;
+    font-size: larger;
+}
+a:hover {
+    color: #254636;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
+button{
+    padding: 1rem;
+    font-size: larger;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: black;
+    color: #d64b20;
+    border-radius: 10px;
+}
+
+.navPortfolio {
+    display: flex;
+    background-color: #EED9C4;
+    align-items: center;
+    justify-content: space-between;
+    border-style: solid;
+    border-color: #d64b20;
+    margin-bottom: -1.8rem;
+    padding: -1rem;
+
+}
+
+.navName {
+    display: flex;
+    width: 100%;
+    margin: 1rem;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.navLinks {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    text-decoration: none;
+    font-size: large;
+}
+
+.navContactRight{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 1rem;
+}
+
+.navContactButton {
+    background-color: #d64b20;
+    font-family: "Gowun Batang";
+    border: lightgrey;
+}
+.introductionPortfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-image: url("images/flowersUpscaled.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 12rem;
+    border-style: solid;
+    border-color: #d64b20;
+
+}
+
+.introHi{
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+    color: #d64b20;
+    margin-top: -7rem;
+    font-weight: bold;
+}
+
+.introSpiel{
+    font-size:x-large;
+    font-weight: bold;
+    border-style: solid;
+    border-color: #d64b20;
+    border-radius: 25px;
+    background-color: black;
+    padding: 0.8rem;
+    margin-top: -3rem;
+    margin-bottom: -3rem;
+    box-shadow: 0px 0px 20px 15px black;
+    width: 50%;
+}
+
+.work{
+    background-image: url("images/pngtree-textured-emerald-green-paper-with-speckled-noise-patterns-image_13801482.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 3rem;
+}
+
+.workTitle{
+    margin-top: -2rem;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: bold;
+    color: #EED9C4;
+}
+.workSpiel{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: -1rem;
+    color: #EED9C4;
+}
+
+.work1{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin: 2rem;
+}
+
+.work2{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin: 2rem
+
+}
+
+.proj{
+    background-color: #EED9C4;
+    border-style: solid;
+    border-color: #d64b20;
+    border-radius: 25px;
+    padding: 1rem;
+    box-shadow: 10px 10px 8px black;
+    font-size: large;
+    font-weight: bold;
+    margin-top: -1rem;
+}
+
+#proj1:hover {
+    background-color: black}
+#proj2:hover {
+    background-color: black}
+#proj3:hover {
+    background-color: black}
+#proj4:hover {
+    background-color: black}
+#proj5:hover {
+    background-color: black}
+#proj6:hover {
+    background-color: black}
+
+.about{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: #EED9C4;
+    border-style: solid;
+    border-color: #d64b20;
+}
+
+.bridgePic {
+    width: 50%;
+    margin-right: -0.7rem;
+    box-shadow: 8px 15px 10px 10px black;;
+}
+
+.aboutMeSpiel{
+    padding: 1rem;
+    font-size: x-large;
+}
+
