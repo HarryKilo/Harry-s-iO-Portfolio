@@ -1,10 +1,15 @@
 body {
-    font-family: "Gowun Batang";
+    font-family: "Young Serif";
     background-color: #254636;
     color: #d64b20;
-    font-weight: normal;
     margin: 0;
 }
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
 a {
     color: #d64b20;
     font-size: larger;
@@ -36,7 +41,8 @@ button:hover {
     border-style: solid;
     border-color: #d64b20;
     margin-bottom: -1.8rem;
-    padding: -1rem;
+    position: fixed;
+    width: 99.75%;
 
 }
 
@@ -88,12 +94,10 @@ button:hover {
     font-size: 3em;
     color: #d64b20;
     margin-top: -7rem;
-    font-weight: bold;
 }
 
 .introSpiel{
     font-size:x-large;
-    font-weight: bold;
     border-style: solid;
     border-color: #d64b20;
     border-radius: 25px;
@@ -106,41 +110,53 @@ button:hover {
 }
 
 .work{
-    background-image: url("images/pngtree-textured-emerald-green-paper-with-speckled-noise-patterns-image_13801482.png");
+    background-image: url("images/Beige and Green Modern Aesthetic Flower Desktop Wallpaper.png");
     background-size: cover;
     background-repeat: no-repeat;
     padding: 3rem;
 }
 
+.workTop{
+    display: flex;
+    flex-direction: column;
+    background-color: #EED9C4;
+    border-style: solid;
+    border-color: #d64b20;
+    border-radius: 25px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
 .workTitle{
-    margin-top: -2rem;
     display: flex;
     justify-content: center;
     font-size: xx-large;
     font-weight: bold;
-    color: #EED9C4;
+    color: #d64b20;
+    margin-top: 0.6em;
+    margin-bottom: -0.5em;
+
 }
 .workSpiel{
     display: flex;
     justify-content: center;
     font-size: larger;
     font-weight: bold;
-    margin-top: -1rem;
-    color: #EED9C4;
+    color: #d64b20;
 }
 
 .work1{
     display: flex;
     justify-content: center;
     gap: 4rem;
-    margin: 2rem;
+    margin: 5rem;
 }
 
 .work2{
     display: flex;
     justify-content: center;
     gap: 4rem;
-    margin: 2rem
+    margin: 5rem
 
 }
 
@@ -188,4 +204,11 @@ button:hover {
     padding: 1rem;
     font-size: x-large;
 }
-
+@media only screen and (max-width: 600px) {
+    body {
+        .work{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

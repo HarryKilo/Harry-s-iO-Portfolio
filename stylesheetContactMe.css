@@ -1,3 +1,58 @@
 body{
-    background-color: black;
+    font-family: "Young Serif";
+    background-image: url("images/Colorful Modern Butterfly Spring Desktop Wallpaper.png");
+}
+
+.contactPageTop{
+    display: flex;
+}
+
+.getInTouch{
+    color: #254636;
+    font-size: 8rem;
+    width: 50%;
+    text-align: center;
+}
+
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    font-size: xx-large;
+    color: #254636;
+    margin: 4rem;
+}
+
+.contactInput{
+        width: 100%;
+        padding: 0.5rem;
+}
+
+.contactMessage{
+    height: 5rem;
+}
+
+#message{
+    line-height: normal;
+    width: 103%;
+    height: 100%;
+
+}
+
+.buttonPosition {
+    text-align: center;
+}
+
+.contactInputButton{
+    justify-items: center;
+    font-family: "Young Serif";
+    font-size: x-large;
+    margin-top: 8rem;
+    padding: 1rem;
+    color: #254636;
+    background-color: #d64b20;
+    border-radius: 25px;
+    border-width: 0.2rem;
+
 }
