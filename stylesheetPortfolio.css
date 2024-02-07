@@ -194,10 +194,30 @@ button:hover {
     border-color: #d64b20;
 }
 
+.aboutMePics{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: stretch;
+}
+
+.mePic{
+    width: 25%;
+    height:25%;
+}
+
+.dndPic{
+    width: 25%;
+    height:25%;
+}
+
+.streetArtPic{
+    width: 25%;
+    height:25%;
+}
+
 .bridgePic {
-    width: 50%;
-    margin-right: -0.7rem;
-    box-shadow: 8px 15px 10px 10px black;;
+    width: 25%;
+    height:25%;
 }
 
 .aboutMeSpiel{
